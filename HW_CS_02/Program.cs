@@ -56,3 +56,4 @@ else if (num > 5 && num < 8)
 
 else
     Console.WriteLine("Repeat the entry (this day of the week doesn't exist).");
+*/
