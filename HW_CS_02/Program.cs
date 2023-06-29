@@ -39,43 +39,20 @@ else
 
 
 
-// Task 3
+// Task 15
 // Напишите программу, которая принимает на вход цифру, 
 // обозначающую день недели, и проверяет, является ли этот день выходным.
 
 
-int Request(string req)
-{
-    Console.Write(req);
-    int resalt = Convert.ToInt32(Console.ReadLine());
-    return resalt;
-}
-bool Weekend(int numWE)
-{
-    if (numWE > 5)
-    {
-               return true;
-    }
-    return false;
-}
-bool Verify(int num)
-{
-    if (num > 0 && num <= 7)
-    {
-       return true;
-    }
+/*
+Console.Write("Input the number of the day of the week: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+if (num > 0 && num < 6)
+    Console.WriteLine("This is a Weekday.");
+
+else if (num > 5 && num < 8)
+    Console.WriteLine("This is the Weekend Day.");
+
+else
     Console.WriteLine("Repeat the entry (this day of the week doesn't exist).");
-    return false;
-}
-int numWD = Request("Input the number of the day of the week ");
-if (Verify(numWD))
-{
-    if (Weekend(numWD))
-    {
-        Console.WriteLine("This is the Weekend Day.");
-    }
-    else
-    {
-        Console.WriteLine("This is a Weekday.");
-    }
-}
