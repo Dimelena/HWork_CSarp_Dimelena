@@ -30,6 +30,7 @@ Console.WriteLine("Repeat the entry. This is not a five-digit number");
 
 
 
+
 // Task 21
 // Напишите программу, которая принимает на вход координаты двух точек 
 // и находит расстояние между ними в 3D пространстве.
@@ -60,7 +61,8 @@ Console.WriteLine($"Distance between points {(Math.Round(Distance(x1, y1, z1, x2
 
 
 
-// Task 3
+
+// Task 23
 // Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
