@@ -216,7 +216,7 @@ while (count <= n)
 */
 
 
-// Homework 3
+// Homework_Seminar_03
 
 
 // Task 19
