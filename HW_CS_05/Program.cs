@@ -9,6 +9,7 @@
 // равна 29, сумма отрицательных равна -20.
 
 
+
 /*
 int [] getRandomArray(int length, int deviation)
 {
@@ -62,7 +63,9 @@ Console.WriteLine($"Сумма положительных чисел в масс
 
 
 
+
 // HomeWork_Seminar_05
+
 
 
 
@@ -73,6 +76,7 @@ Console.WriteLine($"Сумма положительных чисел в масс
 // [345, 897, 568, 234] -> 2
 
 
+
 /*
 int[] FillArray(int size, int minValue, int maxValue)       
 {
@@ -81,6 +85,7 @@ int[] FillArray(int size, int minValue, int maxValue)
         array[i] = new Random().Next(minValue, maxValue + 1);      
     return array;  
 }
+
 
 // void WriteArray(int[] array)                                        
 // {
@@ -110,7 +115,6 @@ void PrintArray (int[] arrayToPrint)
 }
 
 
-
 int QuanEvenNum(int[] array)    
 { 
     int sum = 0;
@@ -121,12 +125,14 @@ int QuanEvenNum(int[] array)
     return sum;
 }
 
+
 Console.Write("Input a length of array: ");
 int Length = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input a min possible value: ");
 int min = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input a max possible value: ");
 int max = Convert.ToInt32(Console.ReadLine());
+
 
 if (min < 100 || max < 100)
     Console.WriteLine("Repeat the entry (Your number is not a three-digit number).");
@@ -141,11 +147,14 @@ else
 
 
 
+
 // Task 36.
 // Задайте одномерный массив, заполненный случайными числами. 
 // Найдите сумму элементов, стоящих на нечётных позициях.
 // [3, 7, 23, 12] -> 19
 // [-4, -6, 89, 6] -> 0
+
+
 
 /*
 int[] FillArray(int size, int minValue, int maxValue)       
@@ -157,12 +166,12 @@ int[] FillArray(int size, int minValue, int maxValue)
     return array;    
 }
 
+
 // void WriteArray(int[] array)                                        
 // {
 //     for (int i = 0; i < array.Length; i++)     
 //     Console.Write(array[i] + " ");                                  
-
-    
+ 
 //     Console.WriteLine();
 // }
 
@@ -185,7 +194,6 @@ void PrintArray (int[] arrayToPrint)
 }
 
 
-
 int SumOddPosNum(int[] array)    
 { 
     int sum = 0;
@@ -196,6 +204,7 @@ int SumOddPosNum(int[] array)
     }
     return sum;
 }
+
 
 Console.Write("Input a length of array: ");
 int Length = Convert.ToInt32(Console.ReadLine());
@@ -214,8 +223,10 @@ Console.WriteLine($"Sum of odd index numbers is {sum}");
 
 
 
+
 // Task 38.
 // Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
+
 
 
 /*
@@ -249,7 +260,6 @@ void PrintArray (double[] arrayToPrint)
 }
 
 
-
 void FindMaxMin(double [] array)
 {
     double max = array[0];
@@ -263,8 +273,8 @@ void FindMaxMin(double [] array)
     Console.Write($"The largest number is {max}; ");
     Console.Write($"the smallest number is {min}; ");
     Console.WriteLine($"number difference is {max - min}");
-
 }
+
 
 Console.Write("Input a length of array: ");
 int size = Convert.ToInt32(Console.ReadLine());
