@@ -1,11 +1,8 @@
 ﻿// Seminar 6
 
 
-// Task 01.
 
-/*   задача 5-го семинара
-
-
+/*
 int [] getRandomArray(int length, int deviation)
 {
     int [] result = new int[length];
@@ -52,6 +49,6 @@ Console.WriteLine();
 
 int positiveSumOfArray = sumElementsOfArray(randomArray, 1);
 int negativeSumOfArray = sumElementsOfArray(randomArray, -1);
-Console.WriteLine($"Сумма положительных чисел в массиве равна {positiveSumOfArray}, сумма отрицательных чисел в массиве равна {negativeSumOfArray}");
+Console.WriteLine($"Сумма положительных чисел в массиве равна {positiveSumOfArray}");
 */
 
