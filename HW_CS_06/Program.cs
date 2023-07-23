@@ -86,7 +86,7 @@ Console.WriteLine();
 
 
 
-
+/*
 const int k = 0;
 const int b = 1;
 const int X_coord = 0;
@@ -159,6 +159,6 @@ bool PointOfIntersection (double[] lineData1, double[] lineData2)
     }
     return true;
 }
-
+*/
 
 
