@@ -651,7 +651,7 @@ Console.WriteLine();
 // 2 4 | 3 4                           ||          18 20
 // 3 2 | 3 3                           ||          15 18
 
-
+/*
 int[,] GetRandom2DArray (int rowNumber, int colNumber, int deviation)
 {
     int[,] result = new int[rowNumber, colNumber];
@@ -730,7 +730,7 @@ for (int i = 0; i < ferstArray.GetLength(0); i++)
 
 Print2DArray(sumMatrix);
 Console.WriteLine();
-
+*/
 
 
 
