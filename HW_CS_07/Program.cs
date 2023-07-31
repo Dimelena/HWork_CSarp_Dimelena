@@ -406,7 +406,7 @@ Console.WriteLine();
 // 1 4 7 2         Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
 // 5 9 2 3
 // 8 4 2 4
-
+// PS: Так же в этой задаче ниже нахождение среднего арифметического в каждой строке
 
 /*
 int[,] GetRandom2DArray (int rowNumber, int colNumber, int deviation)
@@ -481,7 +481,7 @@ void ColumnAverage(int[,] myArray)
         Console.ForegroundColor = ConsoleColor.White;
     }
     
-}
+}          
 
 
 ColumnAverage(randomArray);
@@ -489,3 +489,30 @@ Console.WriteLine();
 */
 
 
+
+// нахождение среднего арифметического в каждой строке
+/*
+void LineAverage(int[,] myArray)
+{
+    int column = myArray.GetLength(0);
+    int line = myArray.GetLength(1);
+
+    for (int i = 0; i < line; i++)
+    {
+        double lineAvg = 0;
+        for (int j = 0; j < line; j++)
+        {                  
+            lineAvg += myArray[i,j];
+        }
+        lineAvg = Math.Round(lineAvg / line, 2);
+
+        Console.Write($"Average {i} line is: ");
+        Console.ForegroundColor = ConsoleColor.Yellow;  
+        Console.WriteLine(lineAvg);
+        Console.ForegroundColor = ConsoleColor.White;
+    }
+    
+}
+LineAverage(randomArray);
+Console.WriteLine();
+*/
